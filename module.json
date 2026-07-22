@@ -1,0 +1,74 @@
+{
+  "id": "daggerheart-voidborne-ru",
+  "title": "Daggerheart: Voidborne — Русская версия",
+  "url": "https://git.geeks.gay/cosmo/daggerheart-voidborne",
+  "version": "0.11.4-ru.1",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "14",
+    "maximum": "14"
+  },
+  "description": "<p>Неофициальные материалы Daggerheart: Voidborne для Foundry VTT. Классы, подклассы, классовые особенности, стойки и связанные описания переведены на русский язык.</p>",
+  "authors": [
+    {
+      "name": "Cosmo",
+      "email": "cptncosmo@gmail.com",
+      "url": "https://git.geeks.gay/cosmo/",
+      "discord": "@cptn_cosmo",
+      "flags": {}
+    }
+  ],
+  "flags": {
+    "canUpload": true
+  },
+  "packs": [
+    {
+      "name": "voidborne-items",
+      "label": "Voidborne: Классы и классовые опции",
+      "path": "packs/voidborne-items",
+      "type": "Item",
+      "system": "daggerheart",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "voidborne-actors",
+      "label": "Voidborne: Противники и окружение (англ.)",
+      "path": "packs/voidborne-actors",
+      "type": "Actor",
+      "system": "daggerheart",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "voidborne-macros",
+      "label": "Voidborne: Макросы (англ.)",
+      "path": "packs/voidborne-macros",
+      "type": "Macro",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "daggerheart",
+      "flags": {}
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "daggerheart",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "esmodules": [
+    "scripts/voidborne.js"
+  ]
+}
