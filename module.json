@@ -4,13 +4,13 @@
   "url": "https://github.com/Easytocraft/daggerheart-voidborne-ru",
   "manifest": "https://raw.githubusercontent.com/Easytocraft/daggerheart-voidborne-ru/main/module.json",
   "download": "https://github.com/Easytocraft/daggerheart-voidborne-ru/archive/refs/heads/main.zip",
-  "version": "0.11.4-ru.1",
+  "version": "0.11.4-ru.2",
   "compatibility": {
     "minimum": "13",
     "verified": "14",
     "maximum": "14"
   },
-  "description": "<p>Неофициальные материалы Daggerheart: Voidborne для Foundry VTT. Классы, подклассы, классовые особенности, стойки и связанные описания переведены на русский язык.</p>",
+  "description": "<p>Неофициальные материалы Daggerheart: Voidborne для Foundry VTT. Классы, подклассы, родословные, сообщества, карты доменов и связанные игровые описания переведены на русский язык.</p>",
   "authors": [
     {
       "name": "Cosmo",
@@ -26,7 +26,7 @@
   "packs": [
     {
       "name": "voidborne-items",
-      "label": "Voidborne: Классы и классовые опции",
+      "label": "Voidborne: Материалы для игроков",
       "path": "packs/voidborne-items",
       "type": "Item",
       "system": "daggerheart",
